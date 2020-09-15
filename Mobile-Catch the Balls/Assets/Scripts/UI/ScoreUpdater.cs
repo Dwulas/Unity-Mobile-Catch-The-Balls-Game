@@ -13,7 +13,7 @@ public class ScoreUpdater : MonoBehaviour
     void Update()
     {
         scoreDisplay.GetComponent<Text>().text = "SCORE: " + orbScore;
-        scoreDisplay.GetComponent<Text>().text = "ORBS: " + orbCount;
+        orbDisplay.GetComponent<Text>().text = "ORBS: " + orbCount;
     }
 
 
