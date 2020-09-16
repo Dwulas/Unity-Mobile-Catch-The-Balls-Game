@@ -35,7 +35,7 @@ public class OrbGenerate : MonoBehaviour
 
     IEnumerator OrbFalling()
     {
-        Instantiate(orbFall[orbCol], new Vector3(xPos, 5, 0), Quaternion.identity);
+        Instantiate(orbFall[orbCol], new Vector3(xPos, 4.5f, 0), Quaternion.identity);
         yield return new WaitForSeconds(0.5f);
         genOrb = false;
     }
